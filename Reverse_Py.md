@@ -1,6 +1,6 @@
 # 1. Using Two Pointers (Manual Swap) — Your Method
 ```
-2. arr = [1, 2, 3, 4, 5]
+ arr = [1, 2, 3, 4, 5]
 start = 0
 end = len(arr) - 1
 
@@ -13,15 +13,15 @@ print("Reversed array:", arr)
 ```
 
 # 2. Using Slicing (Python Shortcut)
-3. ```
-4. arr = [1, 2, 3, 4, 5]
+```
+ arr = [1, 2, 3, 4, 5]
 reversed_arr = arr[::-1]
 print("Reversed array:", reversed_arr)
 ```
 
 # 3. Using reversed() Built-in Function
 ```
- arr = [1, 2, 3, 4, 5]
+arr = [1, 2, 3, 4, 5]
 reversed_arr = list(reversed(arr))
 print("Reversed array:", reversed_arr)
 ```
